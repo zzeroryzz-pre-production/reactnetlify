@@ -12,7 +12,8 @@ export default function App() {
       <nav>
         <h1 className="store-header">Med Cabinet</h1>
         <div className="nav-links">
- 
+        <Link to ="/">Login</Link>
+
           <Link to ="/signup">Sign Up</Link>
           <Link to ="/login">Login</Link>
         </div>
@@ -21,7 +22,8 @@ export default function App() {
       <Switch>
           <Route path="/login" component={LoginForm}/>
           <Route path ="/signup" component={SignupForm}/>
-      
+          <Route path="/" component={LoginForm}/>
+
 
         </Switch>
 
