@@ -12,7 +12,7 @@ export default function App() {
       <nav>
         <h1 className="store-header">Med Cabinet</h1>
         <div className="nav-links">
-        <Link to ="/">Login</Link>
+        {/* <Link to ="/">Login</Link> */}
 
           <Link to ="/signup">Sign Up</Link>
           <Link to ="/login">Login</Link>
